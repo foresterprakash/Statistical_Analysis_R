@@ -1,7 +1,7 @@
 ---
 title: "Statistical Analysis in R"
 author: "Prakash Lamichhane"
-date: "2023-10-29"
+date: "2023-12-26"
 output:
   html_document: 
     theme: cosmo
@@ -858,7 +858,7 @@ Here the column “group” is called factor and the different categories (“ct
 
 
 ```r
-H0 <- "There is significant difference between the treatment groups"
+H0 <- "There is no significant difference between the treatment groups"
 
 H1 <- "There are significant difference between the treatment groups"
 ```
