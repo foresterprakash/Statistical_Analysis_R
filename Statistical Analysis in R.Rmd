@@ -510,7 +510,7 @@ Here the column “group” is called factor and the different categories (“ct
 **Setting up Hypothesis**
 
 ```{r comment=NA}
-H0 <- "There is significant difference between the treatment groups"
+H0 <- "There is no significant difference between the treatment groups"
 
 H1 <- "There are significant difference between the treatment groups"
 ```
