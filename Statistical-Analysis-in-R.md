@@ -1,7 +1,7 @@
 ---
 title: "Statistical Analysis in R"
 author: "Prakash Lamichhane"
-date: "2023-12-26"
+date: "2023-12-27"
 output:
   html_document: 
     theme: cosmo
@@ -1095,7 +1095,7 @@ where $m_x$ and $m_y$ are means of the distributions $x$ and $y$ respectively.
 
 These are rank-based correlation coefficients (non parametric).The Spearman correlation method computes the correlation between the rank of x and the rank of y variables.
 
-$$rho = \frac{\sum (x-m_x)(y-m_y)}{\sqrt{\sum(x-m_x)^2-(y-y_m)^2}}$$
+$$rho = \frac{\sum (x-m_x)(y-m_y)}{\sqrt{\sum(x-m_x)^2\sum(y-y_m)^2}}$$
 where $x$ = rank(x) and y = rank(y)
 
 **R method to find correlation coefficient**
